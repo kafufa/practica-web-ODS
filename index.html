@@ -1,2 +1,206 @@
-# practica-web-ODS
-esto es un proyecto de paguina web para lenguaje de marcas
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objectius de Desenvolupament Sostenible - ODS 2030</title>
+    <link href="dist/css/bootstrap.css" rel="stylesheet">
+    <link href="proyecto web ODS/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar amb Bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="index.html">🌍 ODS 2030</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Inici</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyecto web ODS/ODS1.html">ODS 3: Salut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="proyecto web ODS/ODS2.html">ODS 13: Clima</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section text-center text-white">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-4">Objectius de Desenvolupament Sostenible</h1>
+            <p class="lead mb-5">17 objectius per transformar el nostre món abans del 2030</p>
+            <a href="#introduccio" class="btn btn-light btn-lg me-2">Descobreix-los</a>
+            <a href="#ods-grid" class="btn btn-outline-light btn-lg">Veure tots els ODS</a>
+        </div>
+    </div>
+
+    <!-- Introducció -->
+    <section id="introduccio" class="container my-5 py-5">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="mb-4 fw-bold">Què són els ODS?</h2>
+                <p class="lead">Els Objectius de Desenvolupament Sostenible (ODS) són 17 objectius globals adoptats per les Nacions Unides el setembre de 2015 com a part de l'Agenda 2030 per al Desenvolupament Sostenible.</p>
+                <p>Aquests objectius aborden els principals desafiaments globals que afrontem com a humanitat: l'eradicació de la pobresa, la lluita contra la desigualtat i la injustícia, i la protecció del nostre planeta davant el canvi climàtic.</p>
+                <p class="mb-4">Amb 169 metes concretes, els ODS representen un pla d'acció compartit per aconseguir la pau i la prosperitat per a les persones i el planeta, ara i en el futur.</p>
+                <div class="d-flex gap-3">
+                    <a href="https://sdgs.un.org/goals" target="_blank" class="btn btn-primary">
+                        <i class="bi bi-globe"></i> Web oficial ONU
+                    </a>
+                    <a href="https://www.un.org/sustainabledevelopment/" target="_blank" class="btn btn-outline-primary">
+                        Més informació
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Sustainable_Development_Goals.png/800px-Sustainable_Development_Goals.png" 
+                     alt="Roda dels ODS" 
+                     class="img-fluid rounded shadow-lg">
+                <p class="text-muted mt-3"><small>Font: Nacions Unides</small></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid dels 17 ODS (CSS GRID) -->
+    <section id="ods-grid" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold">Els 17 Objectius de Desenvolupament Sostenible</h2>
+            <p class="text-center text-muted mb-5">Fes clic en qualsevol objectiu per descobrir més informació</p>
+            
+            <div class="ods-grid">
+                <div class="ods-card ods-1">
+                    <h3>1</h3>
+                    <p>Fi de la pobresa</p>
+                </div>
+                <div class="ods-card ods-2">
+                    <h3>2</h3>
+                    <p>Fam zero</p>
+                </div>
+                <div class="ods-card ods-3">
+                    <h3>3</h3>
+                    <p>Salut i benestar</p>
+                </div>
+                <div class="ods-card ods-4">
+                    <h3>4</h3>
+                    <p>Educació de qualitat</p>
+                </div>
+                <div class="ods-card ods-5">
+                    <h3>5</h3>
+                    <p>Igualtat de gènere</p>
+                </div>
+                <div class="ods-card ods-6">
+                    <h3>6</h3>
+                    <p>Aigua neta i sanejament</p>
+                </div>
+                <div class="ods-card ods-7">
+                    <h3>7</h3>
+                    <p>Energia assequible i neta</p>
+                </div>
+                <div class="ods-card ods-8">
+                    <h3>8</h3>
+                    <p>Treball digne i creixement econòmic</p>
+                </div>
+                <div class="ods-card ods-9">
+                    <h3>9</h3>
+                    <p>Indústria, innovació i infraestructura</p>
+                </div>
+                <div class="ods-card ods-10">
+                    <h3>10</h3>
+                    <p>Reducció de les desigualtats</p>
+                </div>
+                <div class="ods-card ods-11">
+                    <h3>11</h3>
+                    <p>Ciutats i comunitats sostenibles</p>
+                </div>
+                <div class="ods-card ods-12">
+                    <h3>12</h3>
+                    <p>Producció i consum responsables</p>
+                </div>
+                <div class="ods-card ods-13">
+                    <h3>13</h3>
+                    <p>Acció pel clima</p>
+                </div>
+                <div class="ods-card ods-14">
+                    <h3>14</h3>
+                    <p>Vida submarina</p>
+                </div>
+                <div class="ods-card ods-15">
+                    <h3>15</h3>
+                    <p>Vida d'ecosistemes terrestres</p>
+                </div>
+                <div class="ods-card ods-16">
+                    <h3>16</h3>
+                    <p>Pau, justícia i institucions sòlides</p>
+                </div>
+                <div class="ods-card ods-17">
+                    <h3>17</h3>
+                    <p>Aliances per aconseguir els objectius</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ODS Destacats (FLEXBOX) -->
+    <section class="container my-5 py-5">
+        <h2 class="text-center mb-4 fw-bold">Els nostres ODS destacats</h2>
+        <p class="text-center text-muted mb-5">Aprofundim en dos objectius fonamentals per al nostre futur</p>
+        
+        <div class="featured-ods">
+            <div class="featured-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Sustainable_Development_Goal_3.png/440px-Sustainable_Development_Goal_3.png" 
+                     alt="ODS 3 - Salut i Benestar">
+                <h3>ODS 3: Salut i Benestar</h3>
+                <p>Garantir vides saludables i promoure el benestar per a totes les persones de totes les edats.</p>
+                <a href="proyecto web ODS/ODS1.html" class="btn btn-success">Explorar ODS 3 →</a>
+            </div>
+            
+            <div class="featured-card">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Sustainable_Development_Goal_13.png/440px-Sustainable_Development_Goal_13.png" 
+                     alt="ODS 13 - Acció pel Clima">
+                <h3>ODS 13: Acció pel Clima</h3>
+                <p>Adoptar mesures urgents per combatre el canvi climàtic i els seus efectes devastadors.</p>
+                <a href="proyecto web ODS/ODS2.html" class="btn btn-success">Explorar ODS 13 →</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Imatge addicional -->
+    <section class="container my-5 text-center">
+        <img src="https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=1200" 
+             alt="Persones treballant juntes pels ODS" 
+             class="img-fluid rounded shadow-lg"
+             style="max-height: 400px; object-fit: cover; width: 100%;">
+        <p class="text-muted mt-3">Junts podem fer realitat els Objectius de Desenvolupament Sostenible</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Sobre els ODS</h5>
+                    <p>Els Objectius de Desenvolupament Sostenible són una crida universal a l'acció per acabar amb la pobresa, protegir el planeta i garantir que totes les persones gaudeixin de pau i prosperitat.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h5>Enllaços útils</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://sdgs.un.org" target="_blank" class="text-white-50">Web oficial ONU</a></li>
+                        <li><a href="https://www.un.org/sustainabledevelopment/" target="_blank" class="text-white-50">Desenvolupament Sostenible</a></li>
+                        <li><a href="https://www.globalgoals.org/" target="_blank" class="text-white-50">The Global Goals</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4 bg-white">
+            <p class="text-center mb-0">&copy; 2024 Projecte ODS - Agenda 2030. Tots els drets reservats.</p>
+        </div>
+    </footer>
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
